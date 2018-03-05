@@ -1,3 +1,4 @@
 /.idea
 /target
 com.dobro.remind.server.RemindServer.iml
+/RemindServer.iml
