@@ -15,6 +15,7 @@ public class App implements WebApplicationInitializer {
 
     private final static String DISPATCHER = "dispatcher";
 
+    @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
         context.register(WebConfig.class);
